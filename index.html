@@ -1,0 +1,913 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Küchenschränke folieren und modern gestalten | Decofilms</title>
+  <meta name="description" content="Entdecken Sie kreative Ideen, praktische Tipps und moderne Designs, um Küchenschränke mit selbstklebender Möbelfolie neu zu gestalten.">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: #fbf8f3;
+      color: #34352f;
+      line-height: 1.75;
+    }
+
+    a { text-decoration: none; }
+
+    .container {
+      width: 90%;
+      max-width: 1160px;
+      margin: auto;
+    }
+
+    header {
+      background: #f3e9dc;
+      border-bottom: 1px solid #e2d2bf;
+      padding: 20px 0;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      color: #553e30;
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    .brand span { color: #a66e46; }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #554b41;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    nav a:hover { color: #a66e46; }
+
+    .hero {
+      padding: 82px 0;
+      background:
+        radial-gradient(circle at 85% 15%, #f3d7b8 0, transparent 30%),
+        linear-gradient(120deg, #e9d6c1, #f8f1e8 55%, #e1c4a6);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      color: #95613e;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      color: #49352a;
+      font-size: 46px;
+      line-height: 1.18;
+      margin: 16px 0 22px;
+    }
+
+    h1 span { color: #a66e46; }
+
+    .hero p {
+      color: #615449;
+      margin-bottom: 24px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 18px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      transition: .2s;
+    }
+
+    .btn-main {
+      background: #79533a;
+      color: #fff;
+    }
+
+    .btn-main:hover { background: #5d3e2b; }
+
+    .btn-light {
+      border: 1px solid #a8896c;
+      color: #674831;
+    }
+
+    .btn-light:hover { background: #fff8ef; }
+
+    .hero-panel {
+      background: #fffaf4;
+      padding: 30px;
+      border: 1px solid #e4d2bf;
+      border-radius: 12px;
+      box-shadow: 0 15px 40px rgba(83, 56, 37, .08);
+    }
+
+    .hero-panel h2 {
+      color: #49352a;
+      font-size: 25px;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .hero-panel p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .mini-feature {
+      border-top: 1px solid #eadfd2;
+      margin-top: 17px;
+      padding-top: 14px;
+    }
+
+    .mini-feature strong {
+      display: block;
+      color: #79533a;
+    }
+
+    .mini-feature span {
+      color: #766b60;
+      font-size: 14px;
+    }
+
+    section { padding: 72px 0; }
+
+    .heading {
+      max-width: 750px;
+      text-align: center;
+      margin: 0 auto 40px;
+    }
+
+    .heading h2 {
+      color: #49352a;
+      font-size: 34px;
+      line-height: 1.3;
+      margin: 10px 0 14px;
+    }
+
+    .heading p { color: #71665b; }
+
+    .intro { background: #fffdf9; }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr .85fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .intro h2 {
+      color: #49352a;
+      font-size: 32px;
+      line-height: 1.3;
+      margin: 12px 0 18px;
+    }
+
+    .intro p {
+      color: #655b50;
+      margin-bottom: 16px;
+    }
+
+    .keyword {
+      color: #985f38;
+      font-weight: 800;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .design-card {
+      background: #e8d4bd;
+      padding: 25px;
+      border-radius: 12px;
+      min-height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .design-card::before {
+      content: "";
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 78%;
+      height: 225px;
+      background: #c1a183;
+      border: 8px solid #f7eee3;
+      box-shadow: 0 8px 20px rgba(65, 43, 29, .13);
+    }
+
+    .door {
+      position: absolute;
+      top: 33px;
+      height: 209px;
+      width: 24%;
+      background: linear-gradient(135deg, #e8d2b6, #c6a98a);
+      border: 2px solid #f5e7d5;
+    }
+
+    .door.one { right: 54%; }
+    .door.two { right: 29%; }
+
+    .door::after {
+      content: "";
+      position: absolute;
+      top: 45%;
+      right: 7px;
+      width: 4px;
+      height: 30px;
+      background: #6e5644;
+      border-radius: 4px;
+    }
+
+    .design-card h3,
+    .design-card p {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+    }
+
+    .design-card h3 { font-size: 24px; }
+    .design-card p { font-size: 14px; margin-bottom: 0; }
+
+    .benefits { background: #f0e6d9; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #fffaf4;
+      padding: 26px;
+      border: 1px solid #e3d3c1;
+      border-radius: 8px;
+    }
+
+    .card-number {
+      color: #a66e46;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .card h3 {
+      color: #49352a;
+      font-size: 19px;
+      margin: 10px 0;
+    }
+
+    .card p {
+      color: #71665b;
+      font-size: 14px;
+    }
+
+    .process { background: #fffdf9; }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 45px;
+    }
+
+    .process-intro h2 {
+      color: #49352a;
+      font-size: 34px;
+      line-height: 1.3;
+      margin: 12px 0 16px;
+    }
+
+    .process-intro p { color: #71665b; }
+
+    .steps {
+      display: grid;
+      gap: 14px;
+    }
+
+    .step {
+      background: #f8f0e7;
+      border-left: 4px solid #b17a50;
+      padding: 19px 22px;
+      border-radius: 0 7px 7px 0;
+    }
+
+    .step h3 {
+      color: #68472f;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .step p {
+      color: #6d6258;
+      font-size: 14px;
+    }
+
+    .style-section { background: #e9d8c5; }
+
+    .style-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .style-item {
+      padding: 24px;
+      background: rgba(255, 250, 244, .85);
+      border-radius: 8px;
+    }
+
+    .style-item h3 {
+      color: #67472f;
+      margin-bottom: 8px;
+    }
+
+    .style-item p {
+      color: #6d6258;
+      font-size: 14px;
+    }
+
+    .faq { background: #fffdf9; }
+
+    .faq-list {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .faq-item {
+      padding: 20px 0;
+      border-bottom: 1px solid #e7ddd1;
+    }
+
+    .faq-item h3 {
+      color: #49352a;
+      font-size: 18px;
+      margin-bottom: 7px;
+    }
+
+    .faq-item p { color: #71665b; }
+
+    .contact { background: #f0e6d9; }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .contact-box {
+      background: #fffaf4;
+      border: 1px solid #e3d3c1;
+      border-radius: 9px;
+      padding: 30px;
+    }
+
+    .contact-box h2 {
+      color: #49352a;
+      font-size: 26px;
+      margin-bottom: 12px;
+    }
+
+    .contact-box p {
+      color: #71665b;
+      margin-bottom: 16px;
+    }
+
+    .detail {
+      border-bottom: 1px solid #e7ddd1;
+      padding: 13px 0;
+    }
+
+    .detail:last-child { border-bottom: 0; }
+
+    .detail strong {
+      display: block;
+      color: #49352a;
+    }
+
+    .detail a,
+    .detail span {
+      color: #71665b;
+      overflow-wrap: anywhere;
+    }
+
+    .detail a:hover { color: #a66e46; }
+
+    .contact-cta {
+      padding: 34px;
+      background: #79533a;
+      color: #fff;
+      border-radius: 9px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .contact-cta .eyebrow { color: #f0d1af; }
+
+    .contact-cta h2 {
+      font-size: 30px;
+      line-height: 1.3;
+      margin: 12px 0;
+    }
+
+    .contact-cta p {
+      color: #f0e3d6;
+      margin-bottom: 22px;
+    }
+
+    .contact-cta .btn {
+      color: #593d2b;
+      background: #f6e6d3;
+    }
+
+    footer {
+      padding: 27px 0;
+      background: #49352a;
+      color: #f0e3d6;
+    }
+
+    .footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .footer-brand {
+      font-weight: 800;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .footer-brand span { color: #e5b78d; }
+
+    footer p { font-size: 13px; }
+
+    footer a {
+      color: #f0c49e;
+      text-decoration: underline;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid, .intro-grid, .process-grid, .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cards, .style-grid { grid-template-columns: repeat(2, 1fr); }
+      h1 { font-size: 39px; }
+      nav { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .container { width: 92%; }
+      .hero { padding: 55px 0; }
+      h1 { font-size: 33px; }
+      section { padding: 52px 0; }
+      .heading h2, .intro h2, .process-intro h2 { font-size: 28px; }
+      .cards, .style-grid { grid-template-columns: 1fr; }
+      .hero-panel, .contact-box, .contact-cta { padding: 23px; }
+      .footer-row { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#start">Decofilms <span>(Sascha Syrzisko)</span></a>
+    <nav>
+      <a href="#ideen">Ideen</a>
+      <a href="#vorteile">Vorteile</a>
+      <a href="#ablauf">Anwendung</a>
+      <a href="#fragen">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="start">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Neue Perspektiven für Ihre Küche</span>
+      <h1>Ihre Küche, Ihr Stil – <span>ganz neu gedacht</span></h1>
+      <p>
+        Nicht immer braucht es neue Möbel, um einen Raum zu verändern.
+        Mit dekorativen Klebefolien können Sie vorhandene Küchenfronten
+        farblich neu gestalten und Ihren eigenen Einrichtungsstil verwirklichen.
+        Entdecken Sie Ideen für eine individuelle Küchenmodernisierung.
+      </p>
+
+      <div class="actions">
+        <a class="btn btn-main"
+           href="https://www.decofilms.de/ratgeber/kueche-folieren.html"
+           target="_blank" rel="noopener noreferrer">küchenschränke folieren Login</a>
+        <a class="btn btn-light" href="#ideen">Gestaltungsideen ansehen</a>
+      </div>
+    </div>
+
+    <div class="hero-panel">
+      <h2>Ein neues Erscheinungsbild für Ihre Möbel</h2>
+      <p>
+        Selbstklebende Möbelfolien eröffnen zahlreiche Möglichkeiten,
+        bestehende Küchenmöbel optisch an neue Wohnideen anzupassen.
+      </p>
+
+      <div class="mini-feature">
+        <strong>Moderne Gestaltung</strong>
+        <span>Entdecken Sie unterschiedliche Farben und Oberflächen.</span>
+      </div>
+
+      <div class="mini-feature">
+        <strong>Individuelle Akzente</strong>
+        <span>Verändern Sie einzelne Fronten oder gestalten Sie ein einheitliches Gesamtbild.</span>
+      </div>
+
+      <div class="mini-feature">
+        <strong>Gut vorbereitet</strong>
+        <span>Mit genauer Planung und geeignetem Material gelingt die Umsetzung leichter.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro" id="ideen">
+  <div class="container intro-grid">
+    <div>
+      <span class="eyebrow">Gestaltung mit Charakter</span>
+      <h2>Alte Fronten neu interpretieren</h2>
+
+      <p>
+        Küchenmöbel prägen den Charakter eines Raumes. Sind die Schränke
+        noch stabil, wirkt ihre Farbe aber nicht mehr zeitgemäß, kann eine
+        optische Veränderung eine interessante Alternative zum vollständigen
+        Austausch sein. Die Auswahl an Folienoberflächen bietet Spielraum
+        für zurückhaltende, elegante oder ausdrucksstarke Gestaltungsideen.
+      </p>
+
+      <p>
+        Helle Töne passen zu einem freundlichen, luftigen Erscheinungsbild.
+        Natürliche Holzdekore vermitteln Wärme, während dunkle Oberflächen
+        moderne Kontraste setzen können. Entscheidend ist, dass Schrankfronten,
+        Arbeitsplatte, Wandgestaltung und Griffe zusammenpassen.
+      </p>
+
+      <p>
+        Wer <a class="keyword"
+          href="https://www.decofilms.de/ratgeber/kueche-folieren.html"
+          target="_blank" rel="noopener noreferrer">küchenschränke folieren</a>
+        möchte, sollte zuerst den Zustand der vorhandenen Möbel prüfen.
+        Der Untergrund muss für die gewählte Folie geeignet, sauber und
+        ausreichend glatt sein. Bei strukturierten oder beschädigten Flächen
+        empfiehlt sich eine sorgfältige Eignungsprüfung.
+      </p>
+
+      <p>
+        Nehmen Sie sich Zeit für die Auswahl des Designs und vergleichen
+        Sie Muster bei unterschiedlichen Lichtverhältnissen. So lässt sich
+        besser einschätzen, ob Farbton und Struktur zur restlichen Einrichtung
+        passen. Auch die Beanspruchung im Küchenalltag sollte bei der
+        Produktwahl berücksichtigt werden.
+      </p>
+    </div>
+
+    <div class="design-card">
+      <div class="door one"></div>
+      <div class="door two"></div>
+      <h3>Gestaltung nach Ihrem Geschmack</h3>
+      <p>Farben und Dekore für ein harmonisches Küchenkonzept.</p>
+    </div>
+  </div>
+</section>
+
+<section class="benefits" id="vorteile">
+  <div class="container">
+    <div class="heading">
+      <span class="eyebrow">Ihre Möglichkeiten</span>
+      <h2>Warum Möbelfolie eine Überlegung wert ist</h2>
+      <p>
+        Eine durchdachte Folierung kann vorhandene Möbel aufwerten und
+        neue Gestaltungsmöglichkeiten eröffnen, ohne dass die gesamte
+        Kücheneinrichtung ersetzt werden muss.
+      </p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <span class="card-number">01 — OPTIK</span>
+        <h3>Frische Farbwelten</h3>
+        <p>
+          Verleihen Sie Ihren Küchenfronten eine neue Wirkung und stimmen
+          Sie das Design auf Ihren Wohnstil ab.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="card-number">02 — AUSWAHL</span>
+        <h3>Viele Dekorideen</h3>
+        <p>
+          Unterschiedliche Uni-Farben und Materialoptiken bieten Raum
+          für schlichte oder kontrastreiche Konzepte.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="card-number">03 — BESTAND</span>
+        <h3>Möbel erhalten</h3>
+        <p>
+          Noch gut erhaltene Schränke können weiter genutzt werden,
+          wenn ihre Beschaffenheit für die Folierung geeignet ist.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="card-number">04 — PLANUNG</span>
+        <h3>Schrittweise modernisieren</h3>
+        <p>
+          Sie können zunächst einzelne sichtbare Flächen verändern und
+          das Gestaltungskonzept nach Bedarf erweitern.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="card-number">05 — KOMBINATION</span>
+        <h3>Kontraste bewusst setzen</h3>
+        <p>
+          Kombinieren Sie dezente Fronten mit einer markanten Arbeitsplatte
+          oder setzen Sie gezielt einzelne Farbakzente.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="card-number">06 — PFLEGE</span>
+        <h3>Den Alltag beachten</h3>
+        <p>
+          Wählen Sie eine für den Einsatzbereich geeignete Folie und
+          beachten Sie die Hinweise zu Reinigung und Pflege.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="ablauf">
+  <div class="container process-grid">
+    <div class="process-intro">
+      <span class="eyebrow">Gut vorbereitet starten</span>
+      <h2>Von der ersten Idee bis zur fertigen Front</h2>
+      <p>
+        Sorgfältiges Arbeiten ist entscheidend für ein überzeugendes
+        Ergebnis. Prüfen Sie vorab den Untergrund, wählen Sie das Material
+        passend zur Nutzung aus und planen Sie genügend Zeit für die
+        einzelnen Arbeitsschritte ein.
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <h3>1. Küchenflächen kontrollieren</h3>
+        <p>
+          Prüfen Sie Türen, Schubladen und Seitenflächen auf lose Beschichtungen,
+          tiefe Schäden oder starke Unebenheiten. Nicht jeder Untergrund
+          eignet sich für jede Folie.
+        </p>
+      </div>
+
+      <div class="step">
+        <h3>2. Maße genau aufnehmen</h3>
+        <p>
+          Vermessen Sie jede Front einzeln. Berücksichtigen Sie den
+          erforderlichen Folienüberstand für Kanten und Ecken und planen
+          Sie ausreichend Material ein.
+        </p>
+      </div>
+
+      <div class="step">
+        <h3>3. Flächen gründlich reinigen</h3>
+        <p>
+          Entfernen Sie Fett, Staub und Rückstände mit einer geeigneten
+          Methode. Die zu beklebende Fläche muss entsprechend den
+          Herstellerangaben vorbereitet und trocken sein.
+        </p>
+      </div>
+
+      <div class="step">
+        <h3>4. Folie gleichmäßig aufbringen</h3>
+        <p>
+          Richten Sie die Folie sorgfältig aus und ziehen Sie die
+          Schutzschicht schrittweise ab. Verwenden Sie ein geeignetes
+          Werkzeug, um eingeschlossene Luft nach außen zu streichen.
+        </p>
+      </div>
+
+      <div class="step">
+        <h3>5. Kanten und Beschläge prüfen</h3>
+        <p>
+          Bearbeiten Sie die Ränder sorgfältig und schneiden Sie
+          überschüssiges Material vorsichtig ab. Griffe und Beschläge
+          können anschließend wieder angebracht werden.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="style-section">
+  <div class="container">
+    <div class="heading">
+      <span class="eyebrow">Inspiration für Ihr Zuhause</span>
+      <h2>Drei Stilrichtungen für Ihre Küche</h2>
+      <p>
+        Mit einer abgestimmten Farb- und Materialauswahl entsteht ein
+        Küchenkonzept, das zum Raum und zu Ihren Vorlieben passt.
+      </p>
+    </div>
+
+    <div class="style-grid">
+      <div class="style-item">
+        <h3>Natürlich und warm</h3>
+        <p>
+          Holzdekore ergänzen helle Wände und schaffen eine gemütliche
+          Atmosphäre. Stimmen Sie die Maserung auf vorhandene Möbel ab.
+        </p>
+      </div>
+
+      <div class="style-item">
+        <h3>Hell und zurückhaltend</h3>
+        <p>
+          Beige, Creme und andere helle Farbtöne lassen sich vielseitig
+          kombinieren und unterstützen ein ruhiges Gesamtbild.
+        </p>
+      </div>
+
+      <div class="style-item">
+        <h3>Modern und kontrastreich</h3>
+        <p>
+          Dunkle Fronten oder markante Dekore können Akzente setzen.
+          Achten Sie dabei auf ausreichend Ausgleich durch andere Flächen.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="fragen">
+  <div class="container">
+    <div class="heading">
+      <span class="eyebrow">Gut zu wissen</span>
+      <h2>Fragen rund um die Küchenfolierung</h2>
+      <p>Die wichtigsten Punkte für eine realistische Planung.</p>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Welche Küchenfronten sind für Folie geeignet?</h3>
+        <p>
+          Viele glatte und feste Oberflächen können infrage kommen.
+          Entscheidend sind das Trägermaterial, dessen Zustand und die
+          Empfehlungen des Folienherstellers.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Muss ich die Schranktüren vorher abmontieren?</h3>
+        <p>
+          Das Abmontieren kann die Arbeit erleichtern, besonders an
+          Kanten und Ecken. Beschläge sollten sicher aufbewahrt und
+          den jeweiligen Türen zugeordnet werden.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Wie wähle ich die passende Farbe?</h3>
+        <p>
+          Berücksichtigen Sie die Größe des Raumes, vorhandenes Licht,
+          Arbeitsplatte und Wandfarbe. Musterstücke helfen dabei,
+          unterschiedliche Designs vorab zu vergleichen.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Wie werden folierte Fronten gepflegt?</h3>
+        <p>
+          Beachten Sie die Pflegeanweisungen des verwendeten Produkts.
+          Nutzen Sie geeignete Reinigungsmittel und vermeiden Sie
+          aggressive oder scheuernde Hilfsmittel, sofern diese nicht
+          ausdrücklich zugelassen sind.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Kann ich die Folie später wieder entfernen?</h3>
+        <p>
+          Das hängt von der Klebefolie und dem Untergrund ab. Prüfen Sie
+          vorab die Herstellerangaben und testen Sie die Entfernung bei
+          Bedarf an einer unauffälligen Stelle.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="container contact-grid">
+    <div class="contact-box">
+      <h2>Decofilms (Sascha Syrzisko)</h2>
+      <p>
+        Informieren Sie sich über selbstklebende Folien und entdecken Sie
+        Gestaltungsideen für Küchenmöbel und andere Wohnbereiche.
+      </p>
+
+      <div class="detail">
+        <strong>Unternehmen</strong>
+        <span>Decofilms (Sascha Syrzisko)</span>
+      </div>
+
+      <div class="detail">
+        <strong>Adresse</strong>
+        <span>Stock 21, 47918 Tönisvorst, Deutschland</span>
+      </div>
+
+      <div class="detail">
+        <strong>Telefon</strong>
+        <a href="tel:+4921569142961">+49 2156 9142961</a>
+      </div>
+
+      <div class="detail">
+        <strong>E-Mail</strong>
+        <a href="mailto:info@decofilms.de">info@decofilms.de</a>
+      </div>
+
+      <div class="detail">
+        <strong>Website</strong>
+        <a href="https://www.decofilms.de/ratgeber/kueche-folieren.html"
+           target="_blank" rel="noopener noreferrer">www.decofilms.de</a>
+      </div>
+    </div>
+
+    <div class="contact-cta">
+      <span class="eyebrow">Neue Ideen entdecken</span>
+      <h2>Geben Sie Ihrer Küche einen individuellen Charakter</h2>
+      <p>
+        Lesen Sie den Ratgeber von Decofilms und informieren Sie sich
+        über Möglichkeiten, Küchenmöbel mit Folie neu zu gestalten.
+      </p>
+
+      <a class="btn"
+         href="https://www.decofilms.de/ratgeber/kueche-folieren.html"
+         target="_blank" rel="noopener noreferrer">Zum Ratgeber</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-row">
+    <div class="footer-brand">Decofilms <span>(Sascha Syrzisko)</span></div>
+    <p>
+      © 2026 Decofilms (Sascha Syrzisko) |
+      <a href="https://www.decofilms.de/ratgeber/kueche-folieren.html"
+         target="_blank" rel="noopener noreferrer">www.decofilms.de</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
